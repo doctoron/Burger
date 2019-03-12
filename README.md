@@ -64,3 +64,4 @@ This `README.md` was created in compliance with the project spec and deployed to
 This project piece was added to https://doctoron.github.io/Bootstrap-Portfolio/ as specified.
 
 - - -
+NOTES taken from https://github.com/DKMitt/burger
