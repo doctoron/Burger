@@ -1,4 +1,3 @@
-```connection.js```
 // Connect Node.js to MySQL
 const mysql = require('mysql');
 
