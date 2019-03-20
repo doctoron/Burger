@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/doctoron/burger/issues"
   },
-  "homepage": "https://github.com/doctoron/burger#readme"
+  "homepage": "https://github.com/doctoron/burger#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
 }

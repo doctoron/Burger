@@ -14,6 +14,23 @@ devoured
 "Mellow Mushroom & Swiss Double Cheese Burger",
 0
 ),
+(
 "Veggie Burger & Vegan Mongolian Cheese",
 0
+),
+(
+"The Ronnie",
+1
+),
+(
+"Nicey Burger",
+1
+),
+(
+"Leah Burger",
+1
+),
+(
+"Incredible Hogwarts Disappearing Burger",
+1
 );
