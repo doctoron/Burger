@@ -13,4 +13,7 @@ devoured
 (
 "Mellow Mushroom & Swiss Double Cheese Burger",
 0
+),
+"Veggie Burger & Vegan Mongolian Cheese",
+0
 );
