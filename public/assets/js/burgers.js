@@ -38,7 +38,7 @@ $(document).ready(function () {
         );
     });
 
-    $(".delete-burger").on("click", (event)=> {
+    $(".delete-burger").on("click", (event) => {
         var id = $(this).data("id");
 
         // Send the DELETE request.
@@ -48,7 +48,6 @@ $(document).ready(function () {
             console.log("deleted burger", id);
             // Reload the page to get the updated list
             location.reload();
-        }
-        )
+        })
     })
 });

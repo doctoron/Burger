@@ -3,15 +3,15 @@ const mysql = require('mysql');
 
 let connection = mysql.createConnection({
     port: 3306,
-    host:"localhost",
+    host: "localhost",
     user: "root",
     password: "kvVs9wRD89Pd3vTb",
     database: "burgers_db"
 });
 
 // Make connection
-connection.connect(function(err){
-    if(err) {
+connection.connect(function (err) {
+    if (err) {
         console.error(`error connecting: ${err.stack}`);
         return;
     }

@@ -1,42 +1,51 @@
-<h1>Eat-Da-Burger!</h1>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 main-section">
 
-<main>
-    <div class="container">
-        <div class="row">
-            <div class="col s6">
+            <br>
+            <h2>Burgers Available To Eat</h2>
+            <ul>
                 {{#each burgers}}
                 {{#unless this.devoured}}
-                <div>
+                <li>
                     <form action="/burger/{{this.id}}?_method=PUT" method="POST">
-                        <button type="submit" class='burgerAvailable'> {{this.burger_name}}</button>
+                        <button type="submit" class="burgerAvailable" style="width:100%"> {{this.burger_name}}</button>
                     </form>
-                </div>
+                </li>
                 {{/unless}}
                 {{/each}}
-            </div>
+            </ul>
+        </div>
 
-            <div class="col s6">
+        <div class="col-sm-6">
+            <div class='burgerEaten'>
+                <h2>Burgers Devoured </h2>
+
                 {{#each burgers}}
                 {{#if this.devoured}}
-                <div class='burgerEaten'>
-                    <div>
-                        {{this.burger_name}}
-                    </div>
-                </div>
+
+                <li>
+                    {{this.burger_name}}
+
+                </li>
                 {{/if}}
                 {{/each}}
+
+            </div>
+
+        </div>
+        {{!-- end .row --}}
+
+        <div class="row">
+            <div class="center add-burger col-sm-12">
+
+                <h2>Add A Burger Option</h2>
+
+                <form action="/burger" method="POST">
+                    <input type="text" id="name" name="burger_name" placeholder="Name Your Burger" style="">
+                    <button type="submit" class="addBurgerButton" style="width:50%">Add The Burger</button>
+                </form>
             </div>
         </div>
-    </div>
-</main>
-
-<h2>Add A Burger Option</h2>
-
-<div class="row">
-    <div class="col s12">
-        <form action="/burger" method="POST">
-            <input type="text" id="name" name="burger_name" placeholder="Name Your Burger">
-            <button type="submit" class="addBurgerButton">Add The Burger</button>
-        </form>
     </div>
 </div>
