@@ -27,10 +27,18 @@ devoured
 1
 ),
 (
-"Leah Burger",
+"The NYC Burger",
 1
 ),
 (
-"Incredible Hogwarts Disappearing Burger",
+"Amazing Hogwarts Disappearing Burger",
+1
+),
+
+"West-Coast Burger",
+1
+),
+(
+"Gusto Gas Burger",
 1
 );
