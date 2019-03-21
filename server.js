@@ -1,13 +1,16 @@
 // Calling all required dependencies
 const express = require("express");
 const methodOverride = require('method-override');
-const dotenv = require('dotenv').config();
 const PORT = process.env.PORT || 8080;
-
 const app = express();
+
+
+// require("dotenv").config();
+const dotenv = require('dotenv').config();
 
 // Serve static content for the app from the "public" directory in the application directory.
 // app.use(express.static("public"));
+
 app.use(express.static(process.cwd() + '/public'));
 
 
@@ -19,7 +22,7 @@ app.use(express.json());
 app.use(methodOverride('_method'));
 
 // Set Handlebars.
-var exphbs = require("express-handlebars");
+let exphbs = require("express-handlebars");
 
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));

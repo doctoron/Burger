@@ -1,9 +1,9 @@
 // Connect Node.js to MySQL
 const mysql = require('mysql');
 
-let connection = mysql.createConnection({
-    port: 3306,
-    host: "localhost",
+const connection = mysql.createConnection({
+    port: "3306",
+    host: "127.0.0.1",
     user: "root",
     password: "kvVs9wRD89Pd3vTb",
     database: "burgers_db"

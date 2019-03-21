@@ -41,7 +41,6 @@ Heroku/7.22.4 darwin-x64 node-v11.10.1
 https://devcenter.heroku.com/articles/troubleshooting-node-deploys#check-your-buildpack
 
 
-### Specifications met
 ## This app suits the following basic specifications:
     * The `server.js` file requires the express and path npm packages.
     
