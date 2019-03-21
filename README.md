@@ -1,7 +1,7 @@
+# Burger
 ### Overview
 Burger logger with MySQL, Node, Express, Handlebars and a homemade Object Relational Mapper (ORM) using the Model, View, Controller (MVC) design pattern.  MySQL is used to query and route data in this app and Handlebars are utilized to generate the HTML.
 
-# Burger
 
 - - -
 
@@ -12,7 +12,6 @@ touch server.js && mkdir config controllers db models public views && cd config 
 2. Next run npm init -y to create package.json
 
 3. Run npm i express express-handlebars mysql
-
 
 Versions utilized:
 Node-js v10.15.2  
@@ -49,19 +48,14 @@ https://devcenter.heroku.com/articles/troubleshooting-node-deploys#check-your-bu
 
 ### Hosting on Heroku
 https://[replace-with-heroku-heroku-12345.herokuapp.com/]
-* Useful troubleshooting tools included logging:
-- A logging function was created to confirm activity at the express terminal, however $ `heroku logs` provided invaluable information if the app did not initially deploy: 
-i.e. `const PORT = process.env.PORT | 8080; instead of const PORT = process.env.PORT || 8080;`
+PORT = process.env.PORT || 8080;
 
-### Create a README.md
+### README.md
 This `README.md` was created in compliance with the project spec and deployed to my repository as described. 
 
 ## BCS Submission
 * The Heroku-deployed and Github links were supplied on the BCS hub.
-* A link to the Github Repository was provided here `https://github.com/doctoron/burger.git`
+* A link to the Github Repository was provided here `https://github.com/doctoron/Burger.git`
 
 ### Add To Your Portfolio
 This project piece was added to https://doctoron.github.io/Bootstrap-Portfolio/ as specified.
-
-- - -
-NOTES taken from https://github.com/DKMitt/burger
