@@ -23,6 +23,7 @@
     "eslint": "^5.15.3",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
+    "handlebars": "^4.1.2",
     "heroku": "^7.22.7",
     "js-yaml": "^3.13.1",
     "lint": "^1.1.2",
