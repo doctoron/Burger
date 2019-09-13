@@ -1,7 +1,8 @@
 # Burger
 ### Overview
 Burger logger with MySQL, Node, Express, Handlebars and a homemade Object Relational Mapper (ORM) using the Model, View, Controller (MVC) design pattern.  MySQL is used to query and route data in this app and Handlebars are utilized to generate the HTML.
-https://mysterious-thicket-47007.herokuapp.com/
+App deployed: https://mysterious-thicket-47007.herokuapp.com/
+Data: https://dashboard.heroku.com/apps/salty-woodland-32487
 
 - - -
 
